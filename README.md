@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/166259303.svg)](https://zenodo.org/badge/latestdoi/166259303)
+
 #  Replication and Reproducibility in Social Sciences and Statistics: Context, Concerns, and Concrete Measures
 
 ## Abstract
