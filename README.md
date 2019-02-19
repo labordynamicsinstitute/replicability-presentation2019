@@ -1,4 +1,5 @@
-[![DOI](https://zenodo.org/badge/166259303.svg)](https://zenodo.org/badge/latestdoi/166259303)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573123.svg)](https://doi.org/10.5281/zenodo.2573123)
+
 
 #  Replication and Reproducibility in Social Sciences and Statistics: Context, Concerns, and Concrete Measures
 
@@ -19,4 +20,4 @@ and that are being discussed in the broader economics community.
 The solutions to these problems will change the way research will be taught
 and conducted, in economics in particular, and in the social sciences more
 broadly. The implications affect undergraduate and graduate teaching, research
-infrastructure, and habits.  
+infrastructure, and habits.
