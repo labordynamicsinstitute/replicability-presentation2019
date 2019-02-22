@@ -17,6 +17,6 @@ programs <- file.path(basepath,"programs")
 for ( dir in list(dataloc,interwrk,programs,TexIncludes,Outputs)){
 	if (file.exists(dir)){
 	} else {
-	dir.create(file.path(dir))
+	dir.create(file.path(dir),recursive = TRUE)
 	}
 }
