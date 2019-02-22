@@ -1,7 +1,7 @@
 ---
 title: "Programs: Replication and Reproducibility in Social Sciences and Statistics: Context, Concerns, and Concrete Measures"
 author: "Lars Vilhuber"
-date: "2019-02-21"
+date: "2019-02-22"
 output: 
   html_document: 
     keep_md: yes
@@ -88,7 +88,8 @@ source(file.path(programs,"libraries.R"), echo=FALSE)
 
 
 ## Download the survey data from Google Sheet
-The responses to the surveys are stored on Google Sheets. 
+The responses to the surveys are stored on Google Sheets. Programs make no attempt to verify if the data previously downloaded (in [../data/survey_data](../data/survey_data)) are older than the data on the web. In order to update the data, delete the relevant file, and run the programs again. The following program is NOT automatically run when executing this README - change the `eval=FALSE` to `eval=TRUE` to run it, or run it manually.
+
 
 ```r
 source(file.path(programs,"01_download_surveys.R"),echo=TRUE)
@@ -97,10 +98,32 @@ source(file.path(programs,"01_download_surveys.R"),echo=TRUE)
 ## Combine various sites into one file
 We combine the various files - it evolves a bit over time, so we need to possibly do some consolidation.
 
-TBD
+
+```r
+source(file.path(programs,"02_combine_surveys.R"),echo=TRUE)
+```
+
+```
+## 
+## > ws <- readRDS(file = file.path(dataloc, "mapping_ws_nums.Rds"))
+## 
+## > ws <- as.vector(ws$ws)
+## 
+## > for (x in 1:length(ws)) {
+## +     tmp.outfile <- paste0("surveyQ_", ws[x])
+## +     tmp.ws <- readRDS(file = file.path(dataloc, paste0(tmp.outfile, 
+## +    .... [TRUNCATED] 
+## 
+## > surveys <- rename(surveys, location = worksheet)
+## 
+## > saveRDS(surveys, file = file.path(interwrk, "surveys.Rds"))
+```
+
 
 
 ## Core analysis and figures
-We can now tabulate the results from the survey
+We can now tabulate the results from the survey.
 
-TBD
+TBD.
+
+
