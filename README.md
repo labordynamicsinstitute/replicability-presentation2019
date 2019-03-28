@@ -21,3 +21,14 @@ The solutions to these problems will change the way research will be taught
 and conducted, in economics in particular, and in the social sciences more
 broadly. The implications affect undergraduate and graduate teaching, research
 infrastructure, and habits.
+
+## Analytics
+
+Every time I have given the talk, I have had attendees fill out a questionnaire. The printed version of the questionnaire is [here](Replicability%20and%20you%20-%20Vilhuber2019.pdf), the online link various (and is valid only for each presentation). 
+
+Results are available here:
+
+ +  [2019-01-28](text/Replication%20and%20You%20-%20UCLA%2020190128.pdf): [UCLA](https://socialsciences.ucla.edu/event/lars-vilhuber-cornell-university/)
+ + [2019-02-01](text/Replication%20and%20You%20-%20ABS%2020190201.pdf): Australian Bureau of Statistics (ABS)
+ + [2019-02-13](text/Replication%20and%20You%20-%20UGA%2020190213.pdf): [UGA](https://calendar.uga.edu/event/replication_and_reproducibility_in_the_social_sciences_context_concerns_and_concrete_measures)
++ [2019-02-21](text/Replication%20and%20You%20-%20Montreal%2020190221.pdf): Montreal Applied Micro Workshop
