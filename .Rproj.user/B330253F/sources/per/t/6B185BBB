@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550773595055.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1296740047",
+    "id" : "6B185BBB",
+    "lastKnownWriteTime" : 1550775036,
+    "last_content_update" : 1550775036744,
+    "path" : "~/GitHub/replicability-presentation2019/programs/01_download_surveys.R",
+    "project_path" : "programs/01_download_surveys.R",
+    "properties" : {
+        "cursorPosition" : "39,2",
+        "scrollLine" : "25"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
