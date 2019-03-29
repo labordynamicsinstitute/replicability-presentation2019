@@ -1,4 +1,3 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573123.svg)](https://doi.org/10.5281/zenodo.2573123)
 
 
 #  Replication and Reproducibility in Social Sciences and Statistics: Context, Concerns, and Concrete Measures
@@ -21,6 +20,11 @@ The solutions to these problems will change the way research will be taught
 and conducted, in economics in particular, and in the social sciences more
 broadly. The implications affect undergraduate and graduate teaching, research
 infrastructure, and habits.
+
+## Archived versions
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573123.svg)](https://doi.org/10.5281/zenodo.2573123)
+
+Note about archived versions: Each presentation is slightly different, and they do not necessarily replace each other. They are simply chronologically registered on Zenodo for archival purposes.
 
 ## Analytics
 
