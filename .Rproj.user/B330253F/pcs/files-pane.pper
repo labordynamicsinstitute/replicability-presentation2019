@@ -1,9 +1,0 @@
-{
-    "path" : "~/GitHub/replicability-presentation2019/data/survey_data",
-    "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 2
-        }
-    ]
-}
