@@ -1,0 +1,32 @@
+sudo: required
+
+services:
+  - docker                  
+
+# safelist
+branches:
+  only:
+  - master
+  
+before_install:            
+  - docker pull rocker/verse
+
+script:
+  - docker run --rm -v $TRAVIS_BUILD_DIR:/documents/ --name rocker rocker/verse /documents/_build.sh  $TRAVIS_BRANCH    
+
+after_error: 
+  - docker logs rocker
+
+after_failure:
+  - docker logs rocker
+
+# we may want to push back to the same repo, not the pages repo
+
+deploy:
+  - provider: pages
+    skip-cleanup: true
+    github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep-history: true
+    target-branch: gh-pages
+    on:
+      branch: master-test
