@@ -6,6 +6,8 @@ output:
   html_document: 
     keep_md: yes
     number_sections: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -16,14 +18,14 @@ This directory contains all programs necessary to run the download and analysis.
 
 ## Setup
 Most parameters are set in the `config.R`:
-```{r setup_config, 	message = FALSE,	warning = FALSE,	include=TRUE}
+```{r setup_config, echo=FALSE,	message = FALSE,	warning = FALSE,	include=TRUE}
 source(file.path(rprojroot::find_rstudio_root_file(),"pathconfig.R"),echo=FALSE)
 source(file.path(programs,"config.R"), echo=FALSE)
 ```
 
 Any libraries needed are called and if necessary installed through `libraries.R`:
 
-```{r setup_libraries}
+```{r setup_libraries, echo=FALSE}
 knitr::opts_chunk$set(warning = FALSE, message = TRUE, include = FALSE)
 source(file.path(basepath,"global-libraries.R"),echo=FALSE)
 source(file.path(programs,"libraries.R"), echo=FALSE)
@@ -45,11 +47,4 @@ We combine the various files - it evolves a bit over time, so we need to possibl
 source(file.path(programs,"02_combine_surveys.R"),echo=TRUE)
 ```
 
-
-
-## Core analysis and figures
-We can now tabulate the results from the survey.
-
-TBD.
-
-
+For the analysis, see [`responses.Rpres`](responses.Rpres).

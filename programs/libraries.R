@@ -3,7 +3,7 @@
 
 
 #' Define the list of libraries
-libraries <- c("dplyr","devtools","googlesheets","rcrossref","readr","tidyr","summarytools")
+libraries <- c("dplyr","devtools","googlesheets","tidyr","ggplot2")
 
 results <- sapply(as.list(libraries), pkgTest)
 cbind(libraries,results)

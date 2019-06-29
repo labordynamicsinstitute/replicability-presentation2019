@@ -1,11 +1,13 @@
 ---
 title: "Programs: Replication and Reproducibility in Social Sciences and Statistics: Context, Concerns, and Concrete Measures"
 author: "Lars Vilhuber"
-date: "2019-02-22"
+date: "2019-06-28"
 output: 
   html_document: 
     keep_md: yes
     number_sections: yes
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -15,18 +17,9 @@ This directory contains all programs necessary to run the download and analysis.
 ## Setup
 Most parameters are set in the `config.R`:
 
-```r
-source(file.path(rprojroot::find_rstudio_root_file(),"pathconfig.R"),echo=FALSE)
-source(file.path(programs,"config.R"), echo=FALSE)
-```
 
 Any libraries needed are called and if necessary installed through `libraries.R`:
 
-
-```r
-knitr::opts_chunk$set(warning = FALSE, message = TRUE, include = FALSE)
-source(file.path(basepath,"global-libraries.R"),echo=FALSE)
-```
 
 ```
 ## Loading required package: dplyr
@@ -61,20 +54,8 @@ source(file.path(basepath,"global-libraries.R"),echo=FALSE)
 ## Loading required package: tictoc
 ```
 
-```r
-source(file.path(programs,"libraries.R"), echo=FALSE)
-```
-
 ```
 ## Loading required package: googlesheets
-```
-
-```
-## Loading required package: rcrossref
-```
-
-```
-## Loading required package: readr
 ```
 
 ```
@@ -82,7 +63,7 @@ source(file.path(programs,"libraries.R"), echo=FALSE)
 ```
 
 ```
-## Loading required package: summarytools
+## Loading required package: ggplot2
 ```
 
 
@@ -124,6 +105,13 @@ source(file.path(programs,"02_combine_surveys.R"),echo=TRUE)
 ## Core analysis and figures
 We can now tabulate the results from the survey.
 
-TBD.
+### Published?
 
+![Published?](README_files/figure-html/published-1.png)
+### Knowledge of Github, by faculty status
+![Knowledge,by faculty status](README_files/figure-html/github_by_faculty-1.png)![Knowledge,by faculty status](README_files/figure-html/github_by_faculty-2.png)
 
+### Do you archive?
+![](README_files/figure-html/archive-1.png)<!-- -->
+### Do you publish your code?
+![](README_files/figure-html/code-1.png)<!-- -->

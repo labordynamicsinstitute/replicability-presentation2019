@@ -17,13 +17,13 @@ gs_ws_ls(surveyQ.gs)
 
 
 # Iterate over each of the multiple sheets
-ws <- gs_ws_ls(surveyQ.gs)
-for (x in 1:length(ws)) {
+ws.list <- gs_ws_ls(surveyQ.gs)
+for (x in 1:length(ws.list)) {
 
   # Extract list and tidy
-	tmp.ws <- gs_read(surveyQ.gs,ws=x)
-	tmp.ws$worksheet <- ws[x]
-	tmp.outfile <- paste0("surveyQ_",ws[x])
+	tmp.ws <- gs_read(surveyQ.gs,ws.list=x)
+	tmp.ws$worksheet <- ws.list[x]
+	tmp.outfile <- paste0("surveyQ_",ws.list[x])
 	
 	if (file.exists(file.path(dataloc,paste0(tmp.outfile,".Rds")))) {
 	  print(paste0("File ",tmp.outfile," already present"))
@@ -41,12 +41,15 @@ for (x in 1:length(ws)) {
 }
 
 # Export the worksheet names to be used in a later data cleaning step
-ws <- as.data.frame(ws)
+ws <- as.data.frame(ws.list) 
+names(ws) <- c("ws")
 ws$date <- Sys.Date()
 
 if (file.exists(file.path(dataloc,"mapping_ws_nums.Rds"))) {
   tmp.ws <- readRDS(file=file.path(dataloc,"mapping_ws_nums.Rds"))
-  ws <- tmp.ws %>% left_join(ws,by=c("ws","date"))
+  ws <- merge(ws,tmp.ws,by = c("ws"),all.x = TRUE) %>% 
+    mutate(date = if_else(!is.na(date.y),date.y,date.x)) %>% 
+    select(-date.x,-date.y)
 }
 saveRDS(ws,file=file.path(dataloc,"mapping_ws_nums.Rds"))
 
