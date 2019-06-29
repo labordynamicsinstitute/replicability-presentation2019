@@ -30,10 +30,13 @@ Note about archived versions: Each presentation is slightly different, and they 
 
 Every time I have given the talk, I have had attendees fill out a questionnaire. The printed version of the questionnaire is [here](Replicability%20and%20you%20-%20Vilhuber2019.pdf), the online link various (and is valid only for each presentation). 
 
-Results are available here:
+# List of presentations
 
- + [2019-01-28](text/Replication%20and%20You%20-%20UCLA%2020190128.pdf): [UCLA](https://socialsciences.ucla.edu/event/lars-vilhuber-cornell-university/)
- + [2019-02-01](text/Replication%20and%20You%20-%20ABS%2020190201.pdf): Australian Bureau of Statistics (ABS)
- + [2019-02-13](text/Replication%20and%20You%20-%20UGA%2020190213.pdf): [UGA](https://calendar.uga.edu/event/replication_and_reproducibility_in_the_social_sciences_context_concerns_and_concrete_measures)
- + [2019-02-21](text/Replication%20and%20You%20-%20Montreal%2020190221.pdf): Montreal Applied Micro Workshop
- + [2019-04-05](text/Replication%20and%20You%20-%20UQAM%2020190405.pdf): UQAM Workshop "[Using Administrative Data to Inform Public Policy](https://grch.esg.uqam.ca/en/workshop-april-5-2019/)" 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573124.svg)](https://doi.org/10.5281/zenodo.2573124) [2019-01-28](https://doi.org/10.5281/zenodo.2573124): [UCLA](https://socialsciences.ucla.edu/event/lars-vilhuber-cornell-university/) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573126.svg)](https://doi.org/10.5281/zenodo.2573126) [2019-02-01](https://doi.org/10.5281/zenodo.2573126): Australian Bureau of Statistics (ABS) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573128.svg)](https://doi.org/10.5281/zenodo.2573128) [2019-02-13](https://doi.org/10.5281/zenodo.2573128): [UGA](https://calendar.uga.edu/event/replication_and_reproducibility_in_the_social_sciences_context_concerns_and_concrete_measures) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2575094.svg)](https://doi.org/10.5281/zenodo.2575094) [2019-02-21](https://doi.org/10.5281/zenodo.2575094): Montreal Applied Micro Workshop 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2621959.svg)](https://doi.org/10.5281/zenodo.2621959) [2019-03-28](https://doi.org/10.5281/zenodo.2621959): Conférence sur les données sécurisées françaises et allemandes sur l'emploi (short, in French) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2649241.svg)](https://doi.org/10.5281/zenodo.2649241) [2019-04-05](https://doi.org/10.5281/zenodo.2649241): UQAM Workshop "[Using Administrative Data to Inform Public Policy](https://grch.esg.uqam.ca/en/workshop-april-5-2019/)" 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3242569.svg)](https://doi.org/10.5281/zenodo.3242569) [2019-06-10](https://doi.org/10.5281/zenodo.3242569): [ÉCOLE D'ÉTÉ SUR LES ENJEUX ÉTHIQUES ET JURIDIQUES DE LA DIFFUSION DES DONNÉES](https://www.ciqss.org/evenement/ecole-d-ete/enjeux-ethiques-et-juridiques-du-partage-et-de-la-diffusion-des-donnees-aux) (in French) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3245369.svg)](https://doi.org/10.5281/zenodo.3245369) [2019-06-13](https://doi.org/10.5281/zenodo.3245369): [Ludwigs-Maximilians-Universität München Economics Faculty and Open Science Center](https://www.osc.uni-muenchen.de/news/vilhuber/index.html) 
