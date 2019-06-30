@@ -135,7 +135,7 @@ surveys %>% filter(!is.na(`Have you ever used Github, Gitlab, Bitbucket, etc.`),
 
 ```
 
-Knowledge of Github (`r lastest.location`)
+Knowledge of Github (`r latest.location`)
 ===============
 
 ```{r github_latest, echo=FALSE,fig.cap="Knowledge,by faculty status",eval=TRUE,include=TRUE,}
@@ -168,7 +168,8 @@ surveys %>% filter(!is.na(`Have you ever archived data in a public repository`))
 
 ```
 
-### Do you publish your code?
+Do you publish your code?
+================
 
 ```{r code, echo=FALSE,eval=TRUE,include=TRUE,}
 surveys %>% filter(!is.na(`Have you ever published your code`)) %>% 
@@ -182,7 +183,8 @@ surveys %>% filter(!is.na(`Have you ever published your code`)) %>%
 
 ```
 
-### Licenses!
+Licenses!
+==========
 
 ```{r license, echo=FALSE,eval=TRUE,include=TRUE,}
 surveys %>% filter(!is.na(`Have you ever chosen a license for your code`)) %>% 
