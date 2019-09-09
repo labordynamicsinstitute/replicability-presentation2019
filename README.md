@@ -40,3 +40,8 @@ Every time I have given the talk, I have had attendees fill out a questionnaire.
  + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2649241.svg)](https://doi.org/10.5281/zenodo.2649241) [2019-04-05](https://doi.org/10.5281/zenodo.2649241): UQAM Workshop "[Using Administrative Data to Inform Public Policy](https://grch.esg.uqam.ca/en/workshop-april-5-2019/)" 
  + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3242569.svg)](https://doi.org/10.5281/zenodo.3242569) [2019-06-10](https://doi.org/10.5281/zenodo.3242569): [ÉCOLE D'ÉTÉ SUR LES ENJEUX ÉTHIQUES ET JURIDIQUES DE LA DIFFUSION DES DONNÉES](https://www.ciqss.org/evenement/ecole-d-ete/enjeux-ethiques-et-juridiques-du-partage-et-de-la-diffusion-des-donnees-aux) (in French) 
  + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3245369.svg)](https://doi.org/10.5281/zenodo.3245369) [2019-06-13](https://doi.org/10.5281/zenodo.3245369): [Ludwigs-Maximilians-Universität München Economics Faculty and Open Science Center](https://www.osc.uni-muenchen.de/news/vilhuber/index.html) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3263879.svg)](https://doi.org/10.5281/zenodo.3263879)  [2019-06-29](https://event.crowdcompass.com/weai2019ac/activity/OG58jV9pD3): Western Economic Association's [94TH ANNUAL CONFERENCE](https://weai.org/conferences/view/2/94th-Annual-Conference) 
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3386553.svg)](https://doi.org/10.5281/zenodo.3386553) 2019-09-04: University of Wisconsin-Madison
+ + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3402470.svg)](https://doi.org/10.5281/zenodo.3402470) 2019-09-06: FSRDC conference 2019 @ University of Wisconsin-Madison (with emphasis on restricted-access data)
+
+
