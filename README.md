@@ -28,7 +28,7 @@ Note about archived versions: Each presentation is slightly different, and they 
 
 ## Analytics
 
-Every time I have given the talk, I have had attendees fill out a questionnaire. The printed version of the questionnaire is [here](Replicability%20and%20you%20-%20Vilhuber2019.pdf), the online link various (and is valid only for each presentation). 
+Sometimes whe I have given the talk, I have had attendees fill out a questionnaire. The printed version of the questionnaire is [here](Replicability%20and%20you%20-%20Vilhuber2019.pdf), the online link various (and is valid only for each presentation). 
 
 # List of presentations
 
@@ -46,6 +46,6 @@ Every time I have given the talk, I have had attendees fill out a questionnaire.
  + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3403351.svg)](https://doi.org/10.5281/zenodo.3403351) [2019-09-11](https://www.aei.org/events/the-policy-simulation-library-dc-meeting-promoting-transparency-and-reproducibility-at-the-american-economic-association/): American Enterprise Institute/ Policy Simulation Library
  + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3403351.svg)](https://doi.org/10.5281/zenodo.3403351) 2019-09-19 Lunch talk at the [Congressional Budget Office](https://www.cbo.gov/about/transparency)
  + [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3457937.svg)](https://doi.org/10.5281/zenodo.3457937) [2019-09-24](http://doku.iab.de/veranstaltungen/2019/coll2019_Vilhuber.pdf): IAB-Colloquium zur Arbeitsmarkt- und Berufsforschung, Nürnberg, Germany (in German)
- + ![UPCOMING](https://img.shields.io/badge/Soon-10.5281%2Fxxxx-orange) [2019-10-01 and 2019-10-02](https://www.ciqss.org/evenement/reproductibilite-en-sciences-sociales-contexte-preoccupations-et-mesures-concretes) [Centre interuniversitaire québécois de statistiques sociales](https://www.ciqss.org/a-propos) (CIQSS) (short course with hands-on training, English and French)
+ +  [2019-10-01 and 2019-10-02](https://www.ciqss.org/evenement/reproductibilite-en-sciences-sociales-contexte-preoccupations-et-mesures-concretes) [Centre interuniversitaire québécois de statistiques sociales](https://www.ciqss.org/a-propos) (CIQSS) (short course with hands-on training, English and French)
 
 
